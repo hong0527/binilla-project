@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>banilla</title>
+    <link rel="stylesheet" href="css/banilla.css">
+
+</head>
+<body>
+    <div id="weatherInform">
+        <span></span>
+        <span></span>
+    </div>
+    <div class="main-screen">
+        <main class="main-box">
+            <div class="main-box__form">
+                
+                <form class = "hidden" id = "login-form">
+                    <input required maxlength = "15" type = "text" placeholder="이름이 뭐야 ?"/>
+                    <button>로그인</button>
+                </form>
+                <h1 class = "hidden"></h1>
+                <form id = todo-form>
+                    <input type = "text" placeholder="오늘할일을 적어봐 !"/>
+                </form>
+            </div>
+            <ul class = "hidden" id = todo-list >
+                <i class="fa-solid fa-list"></i>
+                <div>
+                    LIST
+                </div>
+            </ul>
+        </main>
+    </div>
+    <div class="main-clockInform">
+        <h2 id="clockInform">
+            00:00
+        </h2>
+    </div>
+    <script src="js/banilla.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="https://kit.fontawesome.com/fb0f9d9e3e.js" crossorigin="anonymous"></script>
+</body>
+</html>

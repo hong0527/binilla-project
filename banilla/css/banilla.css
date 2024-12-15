@@ -1,0 +1,128 @@
+span{
+    color:blue;
+}
+
+.newcolor{
+    transition: color .4s ease-in-out;
+    color:tomato;
+}
+
+.hidden{
+    display:none;
+}
+body{
+    position: relative;
+    width: 100vw;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+
+.main-box{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 250px;
+}
+
+#weatherInform span{
+    color:#373737;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#login-form input {
+    border-radius: 15px;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 20px #BCBBC2;
+}
+
+#todo-form input{
+    border-radius: 15px;
+    padding: 10px 25px;
+    box-shadow: 3px 3px 20px #BCBBC2;
+}
+
+.main-box__form{
+    background-color: #F7F7F5;
+    box-shadow: 1px 3px 20px #BCBBC2;
+    box-shadow: 3px 3px 20px #BCBBC2;
+    padding:50px 70px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+.main-box__form button{
+    position: relative;
+    top:20px;
+    background-color: crimson;
+    border-radius: 100%;
+    padding:20px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 20px crimson;
+    font-size: 17px;
+    font-weight: 600;
+    color: #373737;
+}
+
+.main-box__form h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #373737;
+}
+.ul{
+    color:#BCBBC2;
+}
+#login-form input::placeholder,
+#todo-form input::placeholder{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #373737;
+}
+#todo-list{
+    background-color: #BCBBC2;
+    margin-left: 50px;
+    margin-top: 25px;
+    padding: 15px 40px;
+    border-radius: 15px;
+    box-shadow: 1px 3px 15px #373737 inset;
+}
+#todo-list li{
+    margin-bottom: 15px;
+}
+#todo-list span{
+    color:#373737;
+    font-weight: 600;
+    margin-right: 10px;
+}
+#todo-list button{
+    background-color: crimson;
+    border-radius: 15px;
+}
+#todo-list div{
+    font-size: 25px;
+    position: relative;
+    top:-15px;
+    left:5px;
+    font-weight: 600;
+}
+
+#clockInform{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    right:50px;
+    top:-100px;
+    font-size: 100px;
+    color:#2C3230;
+}
+#todo-list i{
+    position: relative;
+    top:13px;
+    left:-20px;
+}
